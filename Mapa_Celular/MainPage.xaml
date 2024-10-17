@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:maps="clr-namespace:Microsoft.Maui.Controls.Maps;assembly=Microsoft.Maui.Controls.Maps"
+             xmlns:sensors="clr-namespace:Microsoft.Maui.Devices.Sensors;assembly=Microsoft.Maui.Essentials"
+             x:Class="Mapa_Celular.MainPage"
+             Title="Mapa Cafeterias">
+
+    <maps:Map x:Name="map" 
+          IsTrafficEnabled="False" 
+          MapType="Street" 
+          IsShowingUser="True" 
+          IsZoomEnabled="True"
+          IsScrollEnabled="True">
+        <maps:Map.Pins>
+
+            <!-- Primer Pin 
+            <maps:Pin Label="Alameda Monterrey"
+                  Address="Parque de MTY"
+                  Type="Place">
+                <maps:Pin.Location>
+                    <sensors:Location>
+                        <x:Arguments>
+                            <x:Double>25.67609159748798</x:Double>
+                            <x:Double>-100.32119338807044</x:Double>
+                        </x:Arguments>
+                    </sensors:Location>
+                </maps:Pin.Location>
+            </maps:Pin>-->
+
+            <!-- Segundo Pin 
+            <maps:Pin Label="Café Nuevo León"
+                  Address="Av. Constitución, Monterrey"
+                  Type="Place">
+                <maps:Pin.Location>
+                    <sensors:Location>
+                        <x:Arguments>
+                            <x:Double>25.6866142</x:Double>
+                            <x:Double>-100.3161126</x:Double>
+                        </x:Arguments>
+                    </sensors:Location>
+                </maps:Pin.Location>
+            </maps:Pin>-->
+
+            <!-- Tercer Pin 
+            <maps:Pin Label="Parque Fundidora"
+                  Address="Fundidora, Monterrey"
+                  Type="Place">
+                <maps:Pin.Location>
+                    <sensors:Location>
+                        <x:Arguments>
+                            <x:Double>25.6782215</x:Double>
+                            <x:Double>-100.2888646</x:Double>
+                        </x:Arguments>
+                    </sensors:Location>
+                </maps:Pin.Location>
+            </maps:Pin>-->
+
+        </maps:Map.Pins>
+
+    </maps:Map>
+
+</ContentPage>

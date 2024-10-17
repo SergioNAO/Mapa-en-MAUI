@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Mapa_Celular.ImagenFundidora"
+             Title="ImagenFundidora">
+    <StackLayout Padding="10">
+        <Label Text="Parque Fundidora" FontSize="Large" HorizontalOptions="Center" />
+
+        <!-- Muestra una imagen -->
+        <Image Source="fundidora1.png" HeightRequest="200" WidthRequest="200" />
+
+        <!-- Puedes agregar más imágenes -->
+        <Image Source="fundidoa2.png" HeightRequest="200" WidthRequest="200" />
+
+        <Image Source="fundidora3.png" HeightRequest="200" WidthRequest="200" />
+    </StackLayout>
+</ContentPage>
