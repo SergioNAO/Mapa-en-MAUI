@@ -4,7 +4,7 @@
              x:Class="Mapa_Celular.ImagenCafe"
              Title="Imagen de TimHortons">
     <StackLayout Padding="10">
-        <Label Text="Tim Hortons Colón" FontSize="Large" HorizontalOptions="Center" />
+        <Label Text="Tim Hortons Colón MTY" FontSize="Large" HorizontalOptions="Center" />
 
         <!-- Muestra una imagen -->
         <Image Source="cafe1.jpg" HeightRequest="200" WidthRequest="200" />
